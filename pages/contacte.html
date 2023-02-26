@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Beșliu Mădălina, Mangiurea Teodor">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logo.png">
+
+    <link rel="stylesheet" href="../css/lightbox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="../js/lightbox.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/slider.js" defer></script>
+</head>
+
+<body>
+
+    <header data-aos="fade-down">
+        <div class="navbar" id="nav">
+            <!-- <a href="../index.html">
+                <img src="../images/logo.png">
+            </a> -->
+            <img src="../images/logo.png" class="logo">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Home &nbsp;
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="despre.html">
+                        About Us &nbsp;
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="servicii.html">
+                        Services &nbsp;
+                        <i class="fab fa-usps"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="galerie.html">
+                        Gallery &nbsp;
+                        <i class="fas fa-images"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="contacte.html">
+                        Contact Us &nbsp;
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                </li>
+                <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
+            </ul>
+        </div>
+    </header>
+
+    <section class="top-section" id="contact-us">
+        <h1 class="top-title">Contact Us</h1>
+    </section>
+
+    <main>
+
+        <section id="contacte" data-aos="fade-in">
+
+            <div id="top5"></div>
+            <a href="#top5"><img class="up" src="../images/up.png"></a>
+
+            <div class="row">
+                <div class="row lista">
+                    <div class="col-50">
+                        <h3 class="centered">Programul de lucru:</h3>
+                        <ul class="contact-list">
+                            <li><b>Luni:</b> 13:00-20:00</li>
+                            <li><b>Marți:</b> 13:00-20:00</li>
+                            <li><b>Miercuri:</b> 13:00-20:00</li>
+                            <li><b>Joi:</b> 13:00-20:00</li>
+                            <li><b>Vineri:</b> 13:00-20:00</li>
+                            <li><b>Sâmbătă:</b> 09:00-20:00</li>
+                            <li><b>Duminică:</b> 09:00-20:00</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-50">
+                        <br>
+                        <h3 class="centered">Date de contact:</h3>
+                        <ul class="contact-list2">
+                            <li>
+                                <b>Telefon:</b>
+                                <a href="tel:0689 28 983">0689 28 983</a>
+                            </li>
+                            <li>
+                                <b>Adresa:</b>
+                                <span>Str. Bălcescu 9, (Palatul de Cultură, et. 2), Ungheni, R. Moldova</span>
+                            </li>
+                            <li>
+                                <b>E-mail:</b>
+                                <a href="mailto:"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-50 contacte-info">
+                    <br><br><br>
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <br>
+                            <textarea id="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                            <br>
+                            <input type="button" value="Transmite" onclick="send()">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.6854735487082!2d27.792084129239036!3d47.20206419869753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40caff73574e579f%3A0xbd86e308851f173a!2sTopolino%20Ungheni!5e0!3m2!1sro!2s!4v1672777772819!5m2!1sro!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer data-aos="fade-down" data-aos-delay="100">
+        <div class="text_footer">Topolino - S.R.L. Kidsgrow ©️</div> <br>
+        <img class="logo_footer" src="../images/logo.png"> <br>
+        <div class="texte_footer">Telefon: <a href="tel:0689 28 983">0689 28 983</a></div>
+        <div class="texte_footer">E-mail: </div>
+        <div>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100087956936261">
+                <img class="facebook" src="../images/facebook_icon.png">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/topolino_ungheni/">
+                <img class="facebook" src="../images/instagram_icon.png">
+            </a>
+        </div>
+        <div class="disclaimer_footer">Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors”
+            organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</div>
+        <div class="texte_footer" id="an">2023</div>
+    </footer>
+
+</body>
+
+</html>
