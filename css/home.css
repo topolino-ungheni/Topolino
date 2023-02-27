@@ -7,7 +7,7 @@
     --sectionbg: #81b6c5b4;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,8 +29,8 @@ html {
 }
 
 .banner {
-    width: 100% ;
-    height: 100vh ;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(#41414195, #41414191), url("../images/index.jpg");
     background-size: cover;
     background-position: center;
@@ -119,7 +119,7 @@ html {
     color: var(--secondary);
 }
 
-.content{
+.content {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -134,7 +134,6 @@ footer {
     padding: 20px 10px;
     background: var(--sectionbg);
     color: var(--primary);
-    /* border-top: 2px solid var(--primary); */
 }
 
 .text_footer {
@@ -149,7 +148,7 @@ footer {
     font-size: 15px;
 }
 
-.texte_footer a{
+.texte_footer a {
     color: var(--primary) !important;
     text-decoration: none !important;
 }
@@ -166,22 +165,98 @@ footer {
 }
 
 .hamburger {
-    color: var(--primary) ;
+    color: var(--primary);
     font-size: 1.7rem;
     cursor: pointer;
     display: none !important;
 }
 
 @media (max-width: 1300px) {
+
     main section {
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 936px) {
 
-    
+    .logo {
+        width: 100px;
+        margin-top: -25px;
+        margin-left: 0px;
+    }
+
+    .hamburger {
+        display: inline-block !important;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar.mobile {
+        float: none;
+        display: flex;
+        background: linear-gradient(var(--primary), var(--sectionbg));
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+
+    .navbar.mobile a {
+        float: none;
+        display: flex;
+        align-items: center !important;
+        padding: 10px 300px;
+        margin-top: 20px;
+        font-size: 22px;
+        color: var(--text);
+    }
+
+}
+
+@media (max-width: 912px) {
+
+    .navbar.mobile a {
+        padding: 5px 300px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -5%;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .navbar.mobile a {
+        padding: 5px 200px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .navbar.mobile a {
+        padding: 5px 200px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -233,7 +308,7 @@ footer {
     .navbar a {
         display: none;
     }
-    
+
     .texte_footer {
         font-size: 20px;
     }
@@ -245,12 +320,12 @@ footer {
         align-items: flex-start !important;
         justify-content: center !important;
     }
-    
+
     .navbar.mobile a {
         float: none;
         display: flex;
         align-items: center !important;
-        padding: 10px 0px;
+        padding: 10px 200px;
         margin-top: 20px;
         font-size: 22px;
         color: var(--text);
@@ -258,6 +333,229 @@ footer {
 
     #intro {
         background-position: 70%;
+    }
+
+}
+
+@media (max-width: 712px) {
+
+    .navbar.mobile a {
+        padding: 5px 200px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -5%;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .navbar.mobile a {
+        padding: 5px 200px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -12%;
+    }
+
+    .intro-content {
+        margin-top: -120px;
+        margin-left: -5px;
+    }
+
+    .intro-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .intro-content h2 {
+        font-size: 20px !important;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    main section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-intro {
+        max-height: 120px;
+    }
+
+    .navbar.mobile a {
+        padding: 5px 100px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
+    .intro-content {
+        margin-top: -120px;
+        margin-left: -5px;
+    }
+
+    .intro-content h1 {
+        font-size: 2.0rem;
+    }
+
+    .intro-content h2 {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+    }
+
+    .texte_footer {
+        font-size: 15px;
+    }
+
+    .intro-btn {
+        padding: 10px 8px;
+        margin-right: 10px;
+    }
+
+    .disclaimer_footer {
+        font-size: 12px;
+    }
+
+    .text_footer {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .navbar.mobile a {
+        padding: 5px 100px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -10%;
+    }
+
+}
+
+@media (max-width: 412px) {
+
+    .navbar.mobile a {
+        padding: 5px 20px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 384px) {
+
+    .navbar.mobile a {
+        padding: 5px 10px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .navbar.mobile a {
+        padding: 5px 0px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .logo-intro {
+        max-height: 120px;
+    }
+
+    .navbar.mobile a {
+        padding: 5px 0px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -15%;
+    }
+
+    .intro-content {
+        margin-top: -120px;
+        margin-left: -5px;
+    }
+
+    .intro-content h1 {
+        font-size: 2.0rem;
+    }
+
+    .intro-content h2 {
+        font-size: 14px !important;
+        margin-bottom: 5px;
+    }
+
+    .texte_footer {
+        font-size: 15px;
+    }
+
+    .intro-btn {
+        padding: 9px 7px;
+        margin-right: 5px;
+    }
+
+    .disclaimer_footer {
+        font-size: 12px;
+    }
+
+    .text_footer {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 280px) {
+
+    .logo-intro {
+        max-height: 120px;
+    }
+
+    .navbar.mobile a {
+        padding: 5px 0px;
+        margin-top: 22px;
+        font-size: 17px;
+        margin-left: -25%;
+    }
+
+    .intro-content {
+        margin-top: -120px;
+        margin-left: -5px;
+    }
+
+    .intro-content h1 {
+        font-size: 2.0rem;
+    }
+
+    .intro-content h2 {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+    }
+
+    .texte_footer {
+        font-size: 15px;
+    }
+
+    .intro-btn {
+        padding: 10px 8px;
+        margin-right: 10px;
+    }
+
+    .disclaimer_footer {
+        font-size: 12px;
+    }
+
+    .text_footer {
+        font-size: 18px;
     }
 
 }

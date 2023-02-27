@@ -7,7 +7,7 @@ AOS.init({
     once: true
 });
 
-emailjs.init("J-guAhO4A7ZJEkgWK");
+emailjs.init("t8pJZjsvfDFzBm7qt");
 
 function mobile() {
     var x = document.getElementById("nav");
@@ -32,7 +32,7 @@ function send() {
         mesaj: document.getElementById("mesaj").value
     };
 
-    emailjs.send("service_rguiedf", "template_smycmto", date)
+    emailjs.send("service_rguiedf", "template_yzqylsq", date)
         .then(function (raspuns) {
             alert("Mesajul a fost transmis.")
             document.getElementById("formular").reset();
