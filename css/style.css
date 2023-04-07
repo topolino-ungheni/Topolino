@@ -2,6 +2,7 @@
 
 :root {
     --primary: rgba(235, 235, 235, 0.848);
+    --textfoot: rgba(255, 255, 255, 0.9);
     --secondary: #0e9ac4;
     --text: #1d1d1d;
     --sectionbg: #81b6c5b4;
@@ -458,7 +459,7 @@ footer {
     text-align: center;
     padding: 20px 10px;
     background: var(--sectionbg);
-    color: var(--primary);
+    color: var(--textfoot);
 }
 
 .text_footer {
@@ -469,12 +470,12 @@ footer {
     font-size: 22px;
 }
 
-.disclaimer_footer {
+/* .disclaimer_footer {
     font-size: 15px;
-}
+} */
 
 .texte_footer a {
-    color: var(--primary) !important;
+    color: var(--textfoot) !important;
     text-decoration: none !important;
 }
 
@@ -560,7 +561,7 @@ footer {
     }
 
     #contact-us {
-        min-height: 40vh;
+        min-height: 45vh;
     }
 
 }
