@@ -30,36 +30,51 @@
 
     <header data-aos="fade-down">
         <div class="navbar" id="nav">
-            <img src="../images/logo.png" class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" class="logo">
+            </a>
             <ul>
                 <li>
                     <a href="../index.html">
-                        Home &nbsp;
-                        <i class="fas fa-home"></i>
+                        Acasă
+                        <!-- <i class="fas fa-home"></i> -->
                     </a>
                 </li>
                 <li>
                     <a href="despre.html">
-                        About Us &nbsp;
-                        <i class="fas fa-info-circle"></i>
+                        Despre noi
+                        <!-- <i class="fas fa-info-circle"></i> -->
                     </a>
                 </li>
                 <li>
-                    <a href="servicii.html">
-                        Services &nbsp;
-                        <i class="fab fa-usps"></i>
-                    </a>
+                    <a href="servicii.html">Ce oferim?<i class="fas fa-caret-down"></i>
+                        <!-- <i class="fab fa-usps"></i> -->
+                        </a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="perete_escalada.html">Perete escaladă</a></li>
+                            <li><a href="trambulina.html">Trambulină</a></li>
+                            <li><a href="labirint.html">Labirint</a></li>
+                            <li><a href="tiroliana.html">Tiroliană</a></li>
+                            <li><a href="spatiu_zile_festive.html">Spațiu Zile Festive</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>
-                    <a href="galerie.html">
-                        Gallery &nbsp;
-                        <i class="fas fa-images"></i>
-                    </a>
+                <li class="active">
+                    <a href="galerie.html">Galerie<i class="fas fa-caret-down"></i> 
+                        <!-- <i class="fas fa-images"></i> -->
+                        </a>
+                    <div class="sub-menu2">
+                        <ul>
+                            <li><a href="galerie.html">Foto</a></li>
+                            <li><a href="video.html">Video</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
                     <a href="contacte.html">
-                        Contact Us &nbsp;
-                        <i class="fas fa-phone-alt"></i>
+                        Contacte 
+                        <!-- <i class="fas fa-phone-alt"></i> -->
                     </a>
                 </li>
                 <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
@@ -69,14 +84,29 @@
     </header>
 
     <section class="top-section" id="gallery">
-        <h1 class="top-title">Gallery</h1>
+        <h1 class="top-title">Galerie</h1>
     </section>
 
     <main>
 
-        <section id="galerie" data-aos="fade-in">
+        <section class="galerie" id="galerie" data-aos="fade-in">
 
             <a href="#top4"><img class="up" src="../images/up.png"></a>
+
+            <div class="menu-container2">
+                <button class="menu2">Menu</button>
+                <!-- <a href="#" class="btn">Menu</a> -->
+                <ul class="menu-nav2">
+                    <li class="nav-item2">
+                        <a class="button2 active-button2" type="button" href="galerie.html">Foto</a>
+                    </li>
+                    <li class="nav-item2">
+                        <a class="button2" type="button" href="video.html">Video</a>
+                        
+                    </li>
+                </ul>
+            </div>
+
 
             <div class="container-galerie">
                 <a data-aos="zoom-in" data-aos-delay="400" href="../images/File-1.jpg">

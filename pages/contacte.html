@@ -7,7 +7,7 @@
     <meta name="description"
         content="Topolino Ungheni a luat naștere în anul 2022. Ideea și începutul activității a avut loc în 2019, desfășurând activități distractive pentru copii în aer liber.">
     <meta name="keywords"
-        content="Topolino, Ungheni, teren, jucărie, jucării, topogan, Anatolie, joacă, petreceri, divertisment, distracție">
+        content="Topolino, Ungheni, teren, jucărie, jucării, copii, topogan, Anatolie, joacă, petreceri, divertisment, distracție, activități, distractive">
     <meta name="author" content="Beșliu Mădălina, Mangiurea Teodor">
     <title>Contact Us</title>
 
@@ -18,48 +18,64 @@
     <link rel="stylesheet" href="../css/lightbox.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js" defer></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script> -->
 
     <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
     <script src="../js/lightbox.js" defer></script>
     <script src="../js/main.js" defer></script>
-    <script src="../js/slider.js" defer></script>
+    <!-- <script src="../js/slider.js" defer></script> -->
 </head>
 
 <body onload="onload()">
 
     <header data-aos="fade-down">
         <div class="navbar" id="nav">
-            <img src="../images/logo.png" class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" class="logo">
+            </a>
             <ul>
                 <li>
                     <a href="../index.html">
-                        Home &nbsp;
-                        <i class="fas fa-home"></i>
+                        Acasă
+                        <!-- <i class="fas fa-home"></i> -->
                     </a>
                 </li>
                 <li>
                     <a href="despre.html">
-                        About Us &nbsp;
-                        <i class="fas fa-info-circle"></i>
+                        Despre noi
+                        <!-- <i class="fas fa-info-circle"></i> -->
                     </a>
                 </li>
                 <li>
-                    <a href="servicii.html">
-                        Services &nbsp;
-                        <i class="fab fa-usps"></i>
+                    <a href="servicii.html">Ce oferim?<i class="fas fa-caret-down"></i>
+                        <!-- <i class="fab fa-usps"></i> -->
                     </a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="perete_escalada.html">Perete escaladă</a></li>
+                            <li><a href="trambulina.html">Trambulină</a></li>
+                            <li><a href="labirint.html">Labirint</a></li>
+                            <li><a href="tiroliana.html">Tiroliană</a></li>
+                            <li><a href="spatiu_zile_festive.html">Spațiu Zile Festive</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a href="galerie.html">
-                        Gallery &nbsp;
-                        <i class="fas fa-images"></i>
+                    <a href="galerie.html">Galerie<i class="fas fa-caret-down"></i>
+                        <!-- <i class="fas fa-images"></i> -->
                     </a>
+                    <div class="sub-menu2">
+                        <ul>
+                            <li><a href="galerie.html">Foto</a></li>
+                            <li><a href="video.html">Video</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li>
+                <li class="active">
                     <a href="contacte.html">
-                        Contact Us &nbsp;
-                        <i class="fas fa-phone-alt"></i>
+                        Contacte
+                        <!-- <i class="fas fa-phone-alt"></i> -->
                     </a>
                 </li>
                 <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
@@ -69,12 +85,68 @@
     </header>
 
     <section class="top-section" id="contact-us">
-        <h1 class="top-title">Contact Us</h1>
+        <h1 class="top-title">Contacte</h1>
     </section>
 
     <main>
 
         <section id="contacte" data-aos="fade-in">
+
+            <section class="book">
+                <div class="flex_space">
+                    <div class="text col-20">
+                        <h1><span>Rezervează!</span></h1><br><br><br>
+                    </div>
+                    <!-- <form id="form">
+                        <div class="field">
+                            <!- <label for="nume">Nume Prenume </label> ->
+                            <input type="text" placeholder="Nume Prenume" name="nume" id="nume" required>
+                        </div>
+                        <div class="field">
+                            <!- <label for="email">E-mail</label> ->
+                            <input type="text" placeholder="E-mail" name="email" id="email">
+                        </div>
+                        <div class="field">
+                            <!- <label for="data">Data</label> ->
+                            <input type="date" placeholder="Data" name="data" id="data" required>
+                        </div>
+                        <div class="field">
+                            <!- <label for="ora_sosirii">Ora Sosirii</label> ->
+                            <input type="text" placeholder="Ora Sosirii" name="ora_sosirii" id="ora_sosirii" required>
+                        </div>
+                        <div class="field">
+                            <!- <label for="ora_plecarii">Ora Plecării</label> ->
+                            <input type="text" placeholder="Ora Plecării" name="ora_plecarii" id="ora_plecarii" required>
+                        </div>
+                        <div class="field">
+                            <!- <label for="nr_telefon">Numărul de telefon</label> ->
+                            <input type="text" placeholder="Numărul de telefon" name="nr_telefon" id="nr_telefon" required>
+                        </div>
+
+                        <input type="submit" id="button" value="Rezervează!">
+                    </form> -->
+
+                    <div class="col-80 form">
+                        <form id="rezervare" class="grid" action="https://formsubmit.co/topolino.ungheni2022@gmail.com"
+                            method="POST">
+                            <!-- <input type="hidden" name="access_key" value="1a91e6cc-400a-4ac7-9f44-d105fb68975e"> -->
+                            <input type="text" name="Nume Prenume" id="nume" placeholder="Nume Prenume" required>
+                            <input type="email" name="E-mail" id="email" placeholder="E-mail">
+                            <input type="text" name="Număr de telefon" id="nr_telefon" placeholder="Număr de telefon"
+                                required>
+                            <input type="date" name="Data Rezervării" id="data" placeholder="Data Rezervării" required>
+                            <input type="datetime" name="Ora Sosirii" id="ora_sosirii" placeholder="Ora Sosirii"
+                                required>
+                            <input type="datetime" name="Ora Plecării" id="ora_plecarii" placeholder="Ora Plecării"
+                                required>
+                            <input type="number" name="Nr. de copii" id="copii" placeholder="Nr. de copii" required>
+                            <input type="hidden" name="_captcha" value="false">
+                            <button id="btn" type="submit" value="Transmite">Transmite</button>
+                            <!-- <input type="button" value="Transmite" onclick="send2()"> -->
+                        </form>
+                    </div>
+                </div>
+            </section>
 
             <a href="#top5"><img class="up" src="../images/up.png"></a>
 
@@ -118,15 +190,20 @@
                     <br><br><br>
 
                     <div class="formular-container">
-                        <form id="formular">
+                        <!-- <form id="formular" onsubmit="sendEmail(); reset(); return false;"> -->
+                        <form action="https://formsubmit.co/topolino.ungheni2022@gmail.com" method="POST" id="formular">
                             <h3>Lasă un mesaj</h3>
-                            <input type="text" id="nume" placeholder="Nume Prenume" required>
+                            <input type="text" name="Nume Prenume" id="nume" placeholder="Nume Prenume" required>
                             <br>
-                            <input type="email" id="email" placeholder="Email" required>
+                            <input type="email" name="E-mail" id="email" placeholder="E-mail" required>
                             <br>
-                            <textarea id="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                            <input type="subiect" name="Subiect" id="subiect" placeholder="Subiect" required>
                             <br>
-                            <input type="button" value="Transmite" onclick="send()">
+                            <textarea id="Mesaj" name="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                            <br>
+                            <input type="hidden" name="_captcha" value="false">
+                            <!-- <input type="button" value="Transmite" onclick="send()"> -->
+                            <button id="btn1">Transmite</button>
                         </form>
                     </div>
                 </div>
@@ -159,9 +236,54 @@
         </div>
         <!-- <div class="disclaimer_footer">Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors”
             organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</div> -->
-        <span class="text_footer" id="year"></span>    
+        <span class="text_footer" id="year"></span>
         <!-- <div class="text_footer" id="an">2023</div> -->
     </footer>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "besliumadalina.2006@gmail.com",
+                Password: "MadalinaB2006",
+                To: 'besliumadalina.2006@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New message",
+                Body: "Nume Prenume: " + document.getElementById("nume").value + "<br> Mesaj: " + document.getElementById("mesaj").value
+            }).then(
+                message => alert(message)
+                // message => alert("Message Sent Succesfully!")
+            );
+        }
+    </script> -->
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        var btn1 = document.getElementById('btn1');
+        btn1.addEventListener('click', function (e) {
+            e.preventDefault()
+            var nume = document.getElementById('nume').value;
+            var email = document.getElementById('email').value;
+            var subiect = document.getElementById('subiect').value;
+            var mesaj = document.getElementById('mesaj').value;
+            var body = 'name: ' + name + '<br> email: ' + email + '<br> subiect: ' + subiect + '<br> mesaj: ' + mesaj;
+
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "besliumadalina13@gmail.com",
+                Password: "ovml gqdl mbng lqwk",
+                To: 'besliumadalina13@gmail.com',
+                From: email,
+                Name: nume,
+                Subject: subiect,
+                Body: body
+            }).then(
+                message => alert(message)
+            );
+        })
+    </script> -->
 
 </body>
 

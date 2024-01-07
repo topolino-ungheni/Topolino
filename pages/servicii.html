@@ -30,36 +30,51 @@
 
     <header data-aos="fade-down">
         <div class="navbar" id="nav">
-            <img src="../images/logo.png" class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" class="logo">
+            </a>
             <ul>
                 <li>
                     <a href="../index.html">
-                        Home &nbsp;
-                        <i class="fas fa-home"></i>
+                        Acasă
+                        <!-- <i class="fas fa-home"></i> -->
                     </a>
                 </li>
                 <li>
                     <a href="despre.html">
-                        About Us &nbsp;
-                        <i class="fas fa-info-circle"></i>
+                        Despre noi
+                        <!-- <i class="fas fa-info-circle"></i> -->
                     </a>
                 </li>
-                <li>
-                    <a href="servicii.html">
-                        Services &nbsp;
-                        <i class="fab fa-usps"></i>
-                    </a>
+                <li class="active">
+                    <a href="servicii.html">Ce oferim?<i class="fas fa-caret-down"></i>
+                        <!-- <i class="fab fa-usps"></i> -->
+                        </a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="servicii.html">Perete escaladă</a></li>
+                            <li><a href="servicii.html">Trambulină</a></li>
+                            <li><a href="servicii.html">Labirint</a></li>
+                            <li><a href="servicii.html">Tiroliană</a></li>
+                            <li><a href="servicii.html">Spațiu Zile Festive</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a href="galerie.html">
-                        Gallery &nbsp;
-                        <i class="fas fa-images"></i>
-                    </a>
+                    <a href="galerie.html">Galerie<i class="fas fa-caret-down"></i> 
+                        <!-- <i class="fas fa-images"></i> -->
+                        </a>
+                    <div class="sub-menu2">
+                        <ul>
+                            <li><a href="galerie.html">Foto</a></li>
+                            <li><a href="video.html">Video</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
                     <a href="contacte.html">
-                        Contact Us &nbsp;
-                        <i class="fas fa-phone-alt"></i>
+                        Contacte 
+                        <!-- <i class="fas fa-phone-alt"></i> -->
                     </a>
                 </li>
                 <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
@@ -69,14 +84,37 @@
     </header>
 
     <section class="top-section" id="services">
-        <h1 class="top-title">Services</h1>
+        <h1 class="top-title">Ce oferim?</h1>
     </section>
 
     <main>
 
-        <section id="servicii" data-aos="fade-in">
+        <section class="servicii" id="servicii" data-aos="fade-in">
 
             <a href="#top3"><img class="up" src="../images/up.png"></a>
+
+            <div class="menu-container">
+                <button class="menu">Menu</button>
+                <!-- <a href="#" class="btn">Menu</a> -->
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a class="button" type="button" href="perete_escalada.html">Perete escaladă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" type="button" href="trambulina.html">Trambulină</a>
+                        <!-- class="button active-button" -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" type="button" href="labirint.html">Labirint</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" type="button" href="tiroliana.html">Tiroliană</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="button" type="button" href="spatiu_zile_festive.html">Spațiu Zile Festive</a>
+                </ul>
+            </div>
+
 
             <div class="col-40">
                 <ul type="square" class="ul-serv">
@@ -84,7 +122,7 @@
                     <li>Zile de naștere - <b>50 lei/oră de copil</b></li>
                 </ul>
                 <h2 class="centered">Abonamente:</h2>
-                <ul type="square" class="ul-serv">
+                <ul type="square" class="ul-serv2">
                     <li>10 ore - <b>550 lei</b></li>
                     <li>20 ore - <b>1000 lei</b></li>
                     <li>Nelimitat - <b>2000 lei/lunar</b></li>
