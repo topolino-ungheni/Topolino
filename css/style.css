@@ -131,51 +131,6 @@ h1 {
 } */
 
 
-
-/* .sub-menu {
-    display: none;
-} */
-
-/* .navbar ul li:hover .sub-menu {
-    display: block;
-    top: 6%;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: linear-gradient(var(--primary), var(--sectionbg)) !important;
-}
-
-.navbar ul li:hover .sub-menu ul {
-    display: block;
-    margin: 10px;
-    margin-left: -10%;
-    position: absolute;
-}
-
-.navbar ul li:hover .sub-menu ul li {
-    width: 150px;
-    padding: 10px;
-} */
-
-/* .navbar ul li:hover .sub-menu {
-    display: block;
-    position: absolute;
-    margin-left: -10px;
-}
-
-.navbar ul li:hover .sub-menu ul {
-    display: block;
-    /* margin: 6px; *
-}
-
-.navbar ul li:hover .sub-menu ul li {
-    width: 100%;
-    padding: 10px 5px 20px 5px;
-    transition: 0.4 ease;
-    text-align: left;
-    line-height: 90%;
-} */
-
 .sub-menu {
     display: none;
     margin-top: 3%;
@@ -225,21 +180,17 @@ h1 {
 .navbar ul li:hover .sub-menu2 {
     display: block;
     position: absolute;
-    /* margin-left: -10%; */
-    /* background: linear-gradient(var(--primary), var(--sectionbg)) !important; */
 }
 
 .navbar ul li:hover .sub-menu2 ul {
     display: block;
     margin: 6px;
-    /* background: linear-gradient(var(--primary2), var(--secondary2)) !important; */
 }
 
 .navbar ul li:hover .sub-menu2 ul li {
     width: 100%;
     padding: 10px 5px 10px 10px;
     margin-bottom: 6px;
-    /* transition: 0.4 ease; */
     text-align: center !important;
     line-height: 90%;
     font-size: 17px;
@@ -395,8 +346,6 @@ main .galerie {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    /* padding-left: 25%;
-    padding-right: 25%; */
 }
 
 .nav-item a {
@@ -417,17 +366,6 @@ main .galerie {
 
 .active-button {
     background: var(--secondsection);
-}
-
-.menu {
-    display: none;
-    height: 40px;
-    width: 80px;
-    margin: 13px 30px;
-    background: var(--secondary2);
-    color: #000;
-    border: none;
-    margin-left: auto;
 }
 
 .ul-serv {
@@ -520,17 +458,6 @@ main .galerie {
 
 .active-button2 {
     background: var(--secondsection);
-}
-
-.menu2 {
-    display: none;
-    height: 40px;
-    width: 80px;
-    margin: 13px 30px;
-    background: var(--secondary2);
-    color: #000;
-    border: none;
-    margin-left: auto;
 }
 
 .container-galerie {
@@ -880,7 +807,7 @@ footer {
     /* about us */
 
     /* services */
-    
+
     #services {
         min-height: 60vh;
     }
@@ -1075,13 +1002,14 @@ footer {
 
     /* services */
 
-    .menu {
-        display: block;
-        margin: 10px 30px 5px auto;
-    }
-
     .menu-nav {
-        display: none;
+        margin: 0px auto;
+        list-style: none;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .nav-mobile {
@@ -1092,6 +1020,10 @@ footer {
         text-align: center;
         margin: 5px 20px;
         padding: 5px 14px;
+    }
+
+    .ul-serv {
+        margin-top: 5%;
     }
 
 }
@@ -1375,12 +1307,6 @@ footer {
 
     /* services */
 
-    .menu {
-        font-size: 20px;
-        height: 50px;
-        width: 105px;
-    }
-
     .ul-serv {
         margin-top: 7%;
         font-size: 26px;
@@ -1609,12 +1535,6 @@ footer {
         margin-top: -3%;
     }
 
-    .menu {
-        font-size: 20px;
-        height: 50px;
-        width: 105px;
-    }
-
     .ul-serv {
         margin-top: 7%;
     }
@@ -1685,11 +1605,11 @@ footer {
         margin-top: -3%;
     }
 
-    .menu {
+    /* .menu {
         font-size: 20px;
         height: 50px;
         width: 105px;
-    }
+    } */
 
     .ul-serv {
         margin-top: 7%;
@@ -1768,11 +1688,11 @@ footer {
         min-height: 40vh;
     }
 
-    .menu {
+    /* .menu {
         font-size: 20px;
         height: 50px;
         width: 100px
-    }
+    } */
 
     .ul-serv {
         margin-right: 10%;
@@ -2215,12 +2135,12 @@ footer {
 
     /* services */
 
-    .menu {
+    /* .menu {
         font-size: 17px;
         height: 45px;
         width: 90px;
         margin: 7px 30px 5px auto;
-    }
+    } */
 
     .ul-serv {
         font-size: 20px;
@@ -2326,12 +2246,12 @@ footer {
         margin-top: -7%;
     }
 
-    .menu {
+    /* .menu {
         height: 40px;
         width: 80px;
         font-size: 15px;
         margin: 6px 30px 5px auto;
-    }
+    } */
 
     .serv-galerie {
         margin: -10px 5% 15px 5%;
@@ -2625,11 +2545,11 @@ footer {
         min-height: 45vh;
     }
 
-    .menu {
+    /* .menu {
         height: 40px;
         width: 80px;
         font-size: 15px;
-    }
+    } */
 
     .ul-serv {
         margin-left: 1%;
@@ -2889,12 +2809,12 @@ footer {
         margin-top: -12%;
     }
 
-    .menu {
+    /* .menu {
         height: 30px;
         width: 70px;
         font-size: 13px;
         margin: 6px 15px 5px auto;
-    }
+    } */
 
     .ul-serv {
         font-size: 14px;

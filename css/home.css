@@ -357,6 +357,10 @@ footer {
         font-size: 0px !important;
     }
 
+    .logo-intro {
+        margin-top: -3%
+    }
+
     .intro-content {
         margin-top: 0;
         margin-left: 0;
@@ -381,6 +385,7 @@ footer {
 
     .logo-intro {
         max-height: 220px;
+        margin-top: -5%
     }
 
     .intro-content h1 {
@@ -418,7 +423,6 @@ footer {
 
     .logo-intro {
         max-height: 235px;
-        margin-top: 0px;
     }
 
     .intro-content h1 {
@@ -541,7 +545,6 @@ footer {
 
     .logo-intro {
         max-height: 220px;
-        margin-top: 50px;
     }
 
     /* .intro-content {
@@ -591,7 +594,6 @@ footer {
 
     .logo-intro {
         max-height: 120px;
-        margin-top: -5px;
     }
 
     /* .intro-content {
@@ -643,7 +645,6 @@ footer {
 
     .logo-intro {
         max-height: 185px;
-        margin-top: 50px;
     }
 
     /* .intro-content {
@@ -688,7 +689,6 @@ footer {
 
     .logo-intro {
         max-height: 155px;
-        margin-top: 0px;
     }
 
     .intro-content h2 {
@@ -724,7 +724,6 @@ footer {
 
     .logo-intro {
         max-height: 175px;
-        margin-top: 0px;
     }
 
     /* .intro-content {
@@ -765,7 +764,6 @@ footer {
 
     .logo-intro {
         max-height: 175px;
-        margin-top: 0px;
     }
 
     /* .intro-content {
@@ -807,7 +805,6 @@ footer {
 
     .logo-intro {
         max-height: 150px;
-        margin-top: 20px;
     }
 
     /* .intro-content {
@@ -871,7 +868,6 @@ footer {
 
     .logo-intro {
         max-height: 145px;
-        margin-top: 0px;
     }
 
     .intro-content h2 {
@@ -923,7 +919,6 @@ footer {
 
     .logo-intro {
         max-height: 140px;
-        margin-top: 0;
     }
 
     /* .intro-content {
@@ -983,7 +978,6 @@ footer {
 
     .logo-intro {
         max-height: 120px;
-        margin-top: 0px;
     }
 
     /* .intro-content {
